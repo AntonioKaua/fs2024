@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    text-align: center;
+    background-color: white;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: Poppins;
+}
+
+.container-principal {
+    background-color: #f7f1f1;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar img {
+    height: 70px;
+    width: auto;
+    padding: 5px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 10px;
+}
+
+.produtos {
+    margin: 0 auto;
+}
+
+.produtos ul {
+
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center; /* Adicionado para centralizar os itens */
+    align-items: center; /* Mantido para centralizar verticalmente se necessário */
+}
+
+.produtos img{
+    height: 150px;
+    width: 170px;
+    
+}
+
+.produtos li{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+
+.carousel {
+    margin-top: 20px; /* Espaço acima do carousel */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Para ocultar partes que saem dos limites */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.carousel-inner img {
+    height: 250px; /* Ajuste a altura desejada */
+    object-fit: contain; /* Mantém a proporção sem cortar */
+    transition: transform 0.5s ease; /* Transição suave */
+    width: 200px;
+}
+
+.carousel-item {
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo para os ícones */
+    border-radius: 50%; /* Ícones arredondados */
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+
+footer p{
+    font-size: 10px;
+}
+
+.title{
+    color: #c51967;
+}
